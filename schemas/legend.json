@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "required": ["metadata", "items"],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "required": ["type"],
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["hierarchy", "layers", "options"]
+                }
+            }
+        }
+    },
+        "items":{
+            "type":"object"
+        }
+}

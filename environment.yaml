@@ -1,0 +1,10 @@
+name: pythemap
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - codecov
+  - python=3.6
+  - gmpy2
+  - numpy
+  - python-rapidjson
